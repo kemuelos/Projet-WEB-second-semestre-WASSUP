@@ -84,7 +84,7 @@ function Log(){
 
 
 function Discussion(){
-    document.getElementById('nom').innerHTML =;
+    document.getElementById('nom').innerHTML = nom;
 }
 
 
