@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Wassup login
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="wassup.css" media="screen" />
+    </head>
+    <body >
+        <!-- s'inscrire -->
+
+        <div id="Sinscrire">
+            <div id="titre">
+                <h1>Wassup</h1>
+            </div>
+            <div id="mail">
+                mail:
+                <input type="text" id="email"/>	
+            </div>
+            <div id="pseudo">
+                pseudo:
+                <input type="text" id="nom"/>	
+            </div>
+            <br>
+            <div>
+                <button class="bouton" id="bouton">
+                    S'inscrire
+                </button>
+                <button  class="bouton"  id="connecter" onclick="document.getElementById('Sinscrire').hidden = true; document.getElementById('Log').hidden = false;">
+                    Déjà Inscrit ?
+                </button>
+            </div>
+        </div>
+
+        <!-- Activer  -->
+
+        <div id="Activer">
+            <div id="Clé">
+                Clé activation:
+                <input type="text" id="key"/>	
+            </div>
+            <br>
+            <div>
+                <button class="bouton" id="activer">
+                    Activer
+                </button>
+            </div>
+        </div>
+
+        <div id="Log">
+            <div id="login">
+                Identifiant:
+                <input type="text" id="ID"/>	
+            </div>
+            <br>
+            <div>
+                <button class="bouton" id="connect">
+                    se connecter
+                </button>
+            </div>
+        </div>
+
+        <!-- Discussion -->
+        <div id="Discussion">
+            <div id="Envoi">
+                <input type="text" id="msg" required>
+                <button type="button">Envoi</button>
+            </div>
+            <div>
+                <div  onclick="ecrireMessage();">
+                </div>
+                <div >
+                    <button type="button">Ajouter Contact</button>
+                  </div>
+            </div>
+        </div>
+        
+
+        
+
+        
+        <script src="wassup.js"></script>
+    </body>
+    <footer id="footer">© ODOUHA Syoan 2021</footer>
+</html>

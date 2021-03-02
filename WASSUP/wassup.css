@@ -1,0 +1,68 @@
+#Sinscrire{
+    margin: auto;
+    width: 500px;
+    padding: 100px;
+    align-items: center;
+    border-radius: 3%;
+    background-color: orange;
+}
+
+#Activer{
+    margin: auto;
+    width: 500px;
+    padding: 100px;
+    align-items: center;
+    border-radius: 3%;
+    background-color: orange;
+}
+
+#Log{
+    margin: auto;
+    width: 500px;
+    padding: 100px;
+    align-items: center;
+    border-radius: 3%;
+    background-color: orange;
+}
+
+#Discussion{
+    margin: auto;
+    width: 500px;
+    padding: 100px;
+    align-items: center;
+    border-radius: 3%;
+    background-color: orange;
+}
+
+
+
+#Profil{
+    float:left;
+    width:240px;
+    padding:1px 0;
+}
+
+
+#Message{
+    margin-left:245px;
+    padding:1px 0;
+}
+
+
+body {
+    background-image:url(fond.png);
+}
+
+footer{
+    color: white;
+    bottom: 2px;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.bouton{
+    background-color: #2F45E2;
+    border-radius: 5%;
+}
+
+
